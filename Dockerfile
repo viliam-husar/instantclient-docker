@@ -27,3 +27,4 @@ RUN apk add --no-cache bash libaio && \
     apk del .build-deps && \
     rm -rf /tmp/instantclient_packages
 
+CMD ["sqlplus"]
